@@ -1,0 +1,80 @@
+body {
+    background-image: url("../images/25099.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif; 
+}
+
+.game-container {
+    text-align: center;
+    padding: 40px;
+    border-radius: 12px; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    background-color: #ffffff; 
+    max-width: 400px; 
+    width: 90%; 
+}
+
+h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px; 
+}
+
+p {
+    margin-bottom: 20px; 
+    color: #999; 
+    font-size: 18px; 
+}
+
+input{
+    padding: 12px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 150px;
+    font-size: 16px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #647f9b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; 
+    transition: background-color 0.3s ease; 
+}
+
+button:hover {
+    background-color: #33485e; 
+}
+
+.result-message {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px; 
+    color: #333; 
+}
+
+.navegacao {
+    margin-top: 20px; 
+}
+
+.navegacao button {
+    padding: 10px 15px;
+    background-color: #6c757d; 
+    margin-top: 10px; 
+}
+
+.navegacao button:hover {
+    background-color: #5a6268; 
+}
